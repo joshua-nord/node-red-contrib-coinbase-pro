@@ -1,0 +1,21 @@
+{
+  "name": "node-red-contrib-coinbase-pro",
+  "version": "1.0.0",
+  "description": "Interact with Coinbase API through Node-RED",
+  "main": "coinbase-pro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Nord",
+  "license": "MIT",
+  "dependencies": {
+    "coinbase-pro-node": "^3.0.4"
+  },
+  "keywords": [ "node-red" ],
+  "node-red"     : {
+    "nodes": {
+        "coinbase-pro": "coinbase-pro.js",
+        "coinbase-pro-apikey": "coinbase-pro-apikey.js"
+    }
+  }
+}
